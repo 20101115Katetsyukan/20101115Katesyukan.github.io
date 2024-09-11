@@ -1,0 +1,77 @@
+<style>
+.shogi-promotion {
+  display: flex;
+  flex-direction: column;
+  font-family: Inter, sans-serif;
+  color: #000;
+  font-weight: 400;
+}
+
+.content-wrapper {
+  align-items: start;
+  background-color: #fff;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 122px 76px;
+}
+
+.title {
+  font-size: 100px;
+}
+
+.shogi-image {
+  aspect-ratio: 1.77;
+  object-fit: contain;
+  object-position: center;
+  width: 999px;
+  align-self: center;
+  margin-top: 231px;
+  max-width: 100%;
+}
+
+.description {
+  font-size: 75px;
+  margin: 132px 0 -20px 38px;
+}
+
+@media (max-width: 991px) {
+  .shogi-promotion {
+    white-space: initial;
+  }
+
+  .content-wrapper {
+    max-width: 100%;
+    white-space: initial;
+    padding: 100px 20px;
+  }
+
+  .title {
+    max-width: 100%;
+    font-size: 40px;
+  }
+
+  .shogi-image {
+    margin-top: 40px;
+  }
+
+  .description {
+    max-width: 100%;
+    font-size: 40px;
+    margin: 40px 0 10px;
+  }
+}
+</style>
+
+<section class="shogi-promotion">
+  <div class="content-wrapper">
+    <h1 class="title">日本将棋普及活動家</h1>
+    <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/ac0ac7d891b0acffbc6bf10404f5aaf94653c37b6c30572c0e49fa4b15e0131c?placeholderIfAbsent=true&apiKey=06e9442f96424628abb94c4888299d0a" class="shogi-image" alt="Shogi promotion visual" />
+    <p class="description">
+      今、藤井聡太八冠が敗れて七冠に後退したり、西山朋佳さんのプロ編入試験など、将棋界は話題で溢れています。しかもAIが普及してきていることにより、初心者もどんどん強くなれる環境です。
+      <br />
+      そこのあなたもぜひ、将棋を始めてみませんか？
+    </p>
+  </div>
+</section>
